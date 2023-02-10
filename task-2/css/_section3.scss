@@ -1,0 +1,59 @@
+$text-color:white;
+.section-3
+{
+    padding-top: 150px;
+  
+}
+@media only screen and (max-width: 991px) {
+
+    .section-3
+    {
+        padding-top: 70px;
+    }
+    #par
+    {
+        margin-bottom: 4rem;
+    }
+    .head
+    {
+        margin-bottom: 2rem;
+    }
+     #btn
+     {
+        text-align: center;
+        margin-bottom: 2.7rem;
+     }
+     .img2{
+        margin-top: 3rem;
+        border-radius: 12px;
+     }
+     #par
+     {
+        margin-top: -.5rem;
+     }
+  }
+@media only screen and (max-width: 575px) {
+
+    .section-3
+    {
+        padding-top:70px;
+    }
+    #par
+    {
+        margin-bottom: 4rem;
+    }
+    .btn
+     {
+       
+        margin-bottom: 4rem;
+     }
+     .head
+     {
+        font-size: xx-large;
+
+        
+     }
+   
+  }
+
+

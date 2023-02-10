@@ -1,0 +1,178 @@
+$primary-color:#043873;
+$background-color:#043873;
+$text-color:white;
+
+#last-part
+{
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+#hed6
+{
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+#last-par
+{
+    padding-bottom: 20px;
+}
+#footer-par
+{
+    padding-top: 20px;
+}
+.spa
+{
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+#last
+{
+   margin-top: 50px;
+}
+#last-part2
+{
+    background-color: $primary-color;
+    padding-top: 130px;
+    color: $text-color;
+}
+//hover effect
+#hed6:hover
+{
+    color: #FFE492;
+}
+#last-par:hover
+{
+    color: #FFE492;
+}
+#footer-par:hover
+{
+    color: #FFE492;
+}
+.hover:hover
+{
+    color: #FFE492;
+}
+#ul
+{
+    display: flex;
+    padding-right: 50px;
+    list-style: none;
+     gap: 25px;
+    padding-top: 10px;
+}
+#ul-ul
+{
+    padding-right: 30px;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-top: -45px;
+}
+#div1
+{
+    display: flex;
+}
+.space1
+{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.ide
+{
+    margin-right: 20px;
+}
+#line
+{
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 991px) {
+   
+     
+ 
+
+    .row
+    {
+        flex-direction: column;
+    }
+    #product
+    {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+    #rec
+    {
+      
+        margin-bottom: 100px;
+    }
+    #com
+    {
+        margin-bottom: 100px;
+    }
+    #med-sec
+    {
+        padding-top: 30px;
+    }
+    #line
+    {
+        margin-top: 30px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 575px) {
+   
+  
+     #product
+     {
+        text-align: center;
+     }
+     #rec
+     {
+        text-align: center ;
+     }
+     #first-img
+     {
+        text-align: center;
+     }
+
+    #com
+    {
+        text-align: center;
+    }
+    #try
+    {
+        text-align: center;
+    }
+    #bar
+    {
+        text-align: center;
+    }
+ }
+ @media only screen and (max-width: 767px) {
+
+    .lastbar
+    {
+        font-size: x-small;
+    }
+   #ul
+   {
+    font-size: x-small;
+   }
+    
+}
+@media only screen and (min-width: 992px) and (max-width:1600px) {
+
+   #last-part2
+   {
+    padding-left: 150px;
+   }
+    
+}
+
+

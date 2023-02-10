@@ -1,0 +1,28 @@
+$background-color:rgb(24, 24, 146);
+$primary-color:rgb(24, 24, 146);
+$background-color:rgb(24, 24, 146);
+$text-color:white;
+
+#navbar
+{
+   background-color: $background-color!important;
+   color: white !important;
+    
+}
+.space
+{
+    margin-right: 20px;
+    color: $text-color;
+   
+}
+#login
+{
+    background-color: #FFE492;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: $primary-color;
+}
+#navbarDropdown
+{
+    color:$text-color;
+}

@@ -1,0 +1,60 @@
+$primary-color:#043873;
+$background-color:#043873;
+$text-color:white;
+.sec-8-icon
+{
+   padding-right: 10px;
+}
+.border-con
+{
+    border: 1px solid yellow;
+    padding:25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 12px;
+   
+}
+.sec-8
+{
+    padding-top: 50px;
+}
+
+
+.border-con:hover
+{
+    height: 600px;
+    background: $primary-color;
+    color: white;
+    
+   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    #btn
+    {
+        color: #4F9CF9;
+    }
+    .col
+    {
+        color:#FFE492;
+    }
+    img:hover{
+        color: #FFE492;
+      }
+}
+
+
+@media only screen and (max-width: 575px) {
+
+    
+   
+  }
+
+  img:hover{
+    color: #d3a725;
+  }
+
+
+
